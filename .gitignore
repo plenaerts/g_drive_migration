@@ -1,3 +1,6 @@
 credentials.json
 token.pickle
 venv
+.ropeproject
+__pycache__
+*.pyc
