@@ -1,3 +1,9 @@
+"""
+Generic Google API functions which any client should be able to use.
+
+Modified from https://developers.google.com/drive/api/v3/quickstart/python
+"""
+
 import pickle
 import os.path
 from googleapiclient.discovery import build
@@ -6,6 +12,7 @@ from google.auth.transport.requests import Request
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/drive']
+
 
 def get_api_resource():
     """
